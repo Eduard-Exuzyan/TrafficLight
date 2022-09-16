@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="21225" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
-    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <device id="retina6_1" orientation="portrait" appearance="dark"/>
     <dependencies>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="21207"/>
         <capability name="Named colors" minToolsVersion="9.0"/>
@@ -57,6 +57,12 @@
                             <constraint firstItem="UAu-Ch-yC2" firstAttribute="height" secondItem="djy-Xg-UnX" secondAttribute="height" multiplier="7.89474" id="oBU-Je-6Tc"/>
                         </constraints>
                     </view>
+                    <connections>
+                        <outlet property="greenView" destination="SZC-lD-Ine" id="arN-o1-07b"/>
+                        <outlet property="redView" destination="ytJ-Yi-AFl" id="itx-S0-Hzz"/>
+                        <outlet property="startButton" destination="djy-Xg-UnX" id="SNi-OX-wcj"/>
+                        <outlet property="yellowView" destination="yfd-UD-mcC" id="LO9-Eu-ZOx"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
