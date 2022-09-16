@@ -25,6 +25,9 @@
                                     <fontDescription key="titleFontDescription" type="system" pointSize="36"/>
                                     <color key="baseForegroundColor" systemColor="systemBackgroundColor"/>
                                 </buttonConfiguration>
+                                <connections>
+                                    <action selector="startButtonDidTapped" destination="BYZ-38-t0r" eventType="touchUpInside" id="d1v-dW-aYi"/>
+                                </connections>
                             </button>
                             <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="fillEqually" spacing="30" translatesAutoresizingMaskIntoConstraints="NO" id="UAu-Ch-yC2">
                                 <rect key="frame" x="142" y="109" width="130" height="450"/>
